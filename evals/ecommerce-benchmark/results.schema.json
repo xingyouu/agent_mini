@@ -1,0 +1,16 @@
+{
+  "outcome_pass": "0|1",
+  "route_pass": "0|1",
+  "tool_pass": "0|1",
+  "arg_pass": "0|1",
+  "followup_pass": "0|1|NA",
+  "approval_pass": "0|1|NA",
+  "retry_pass": "0|1|NA",
+  "compaction_pass": "0|1|NA",
+  "quality_score": "1-5",
+  "steps": 0,
+  "tool_calls": 0,
+  "latency_ms": 0,
+  "tokens_in": 0,
+  "tokens_out": 0
+}

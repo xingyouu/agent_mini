@@ -1,0 +1,134 @@
+﻿[
+  {
+    "order_id": "O1001",
+    "item": "蓝牙耳机",
+    "sku": "SKU-EARBUD-01",
+    "status": "delivered",
+    "signed_at": "2026-03-20",
+    "opened": false,
+    "customized": false,
+    "gift_card": false,
+    "quality_issue": false,
+    "items": [
+      { "name": "蓝牙耳机", "price": 399, "qty": 1 }
+    ],
+    "shipping_fee": 12,
+    "coupon": 40
+  },
+  {
+    "order_id": "O1002",
+    "item": "定制马克杯",
+    "sku": "SKU-MUG-CUSTOM-01",
+    "status": "delivered",
+    "signed_at": "2026-03-18",
+    "opened": true,
+    "customized": true,
+    "gift_card": false,
+    "quality_issue": false,
+    "items": [
+      { "name": "定制马克杯", "price": 129, "qty": 1 }
+    ],
+    "shipping_fee": 10,
+    "coupon": 0,
+    "engraved": true
+  },
+  {
+    "order_id": "O1003",
+    "item": "键盘 + 鼠标",
+    "sku": "SKU-BUNDLE-KM-01",
+    "status": "pending_fulfillment",
+    "signed_at": null,
+    "opened": false,
+    "customized": false,
+    "gift_card": false,
+    "quality_issue": false,
+    "items": [
+      { "name": "键盘", "price": 499, "qty": 1 },
+      { "name": "鼠标", "price": 199, "qty": 1 }
+    ],
+    "shipping_fee": 15,
+    "coupon": 70
+  },
+  {
+    "order_id": "O1004",
+    "item": "电子礼品卡",
+    "sku": "SKU-GIFTCARD-01",
+    "status": "delivered",
+    "signed_at": "2026-03-25",
+    "opened": true,
+    "customized": false,
+    "gift_card": true,
+    "quality_issue": false,
+    "items": [
+      { "name": "电子礼品卡", "price": 200, "qty": 1 }
+    ],
+    "shipping_fee": 0,
+    "coupon": 0
+  },
+  {
+    "order_id": "O1005",
+    "item": "空气炸锅",
+    "sku": "SKU-AIRFRYER-01",
+    "status": "delivered",
+    "signed_at": "2026-03-12",
+    "opened": true,
+    "customized": false,
+    "gift_card": false,
+    "quality_issue": true,
+    "issue_description": "电机异响",
+    "items": [
+      { "name": "空气炸锅", "price": 799, "qty": 1 }
+    ],
+    "shipping_fee": 20,
+    "coupon": 0
+  },
+  {
+    "order_id": "O1006",
+    "item": "手机壳",
+    "sku": "SKU-CASE-01",
+    "status": "shipped_in_transit",
+    "shipped_at": "2026-03-24",
+    "signed_at": null,
+    "opened": false,
+    "customized": false,
+    "gift_card": false,
+    "quality_issue": false,
+    "items": [
+      { "name": "手机壳", "price": 59, "qty": 1 }
+    ],
+    "shipping_fee": 8,
+    "coupon": 0
+  },
+  {
+    "order_id": "O1042",
+    "item": "蓝牙耳机",
+    "sku": "SKU-EARBUD-01",
+    "status": "delivered",
+    "signed_at": "2026-03-19",
+    "opened": true,
+    "customized": false,
+    "gift_card": false,
+    "quality_issue": false,
+    "items": [
+      { "name": "蓝牙耳机", "price": 399, "qty": 1 }
+    ],
+    "shipping_fee": 12,
+    "coupon": 0
+  },
+  {
+    "order_id": "O1088",
+    "item": "台灯",
+    "sku": "SKU-LAMP-01",
+    "status": "delivered",
+    "signed_at": "2026-03-11",
+    "opened": true,
+    "customized": false,
+    "gift_card": false,
+    "quality_issue": false,
+    "items": [
+      { "name": "台灯", "price": 299, "qty": 1 }
+    ],
+    "shipping_fee": 12,
+    "coupon": 30
+  }
+]
