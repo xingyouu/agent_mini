@@ -1,0 +1,36 @@
+{
+  "name": "mini-agent",
+  "version": "0.1.0",
+  "description": "学习 AI Agent 的系统级设计",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "mini-agent": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/cli.ts",
+    "start": "node dist/cli.js",
+    "chat": "tsx src/cli.ts chat",
+    "gateway": "tsx src/gateway/gateway-cli.ts serve",
+    "gateway:serve": "tsx src/gateway/gateway-cli.ts serve",
+    "gateway:connect": "tsx src/gateway/gateway-cli.ts connect",
+    "channel:telegram": "tsx src/channels/channel-cli.ts telegram",
+    "example": "tsx examples/basic.ts"
+  },
+  "dependencies": {
+    "@mariozechner/pi-ai": "0.50.7",
+    "grammy": "^1.41.1",
+    "ws": "^8.19.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/ws": "^8.18.1",
+    "tsx": "^4.21.0",
+    "typescript": "^5.7.0"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "packageManager": "pnpm@10.32.1+sha512.a706938f0e89ac1456b6563eab4edf1d1faf3368d1191fc5c59790e96dc918e4456ab2e67d613de1043d2e8c81f87303e6b40d4ffeca9df15ef1ad567348f2be"
+}
